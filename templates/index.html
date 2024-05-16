@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <!-- icona del sito nella scheda -->
+    <link rel="icon" href="{{ url_for('static', filename='img/logo.png') }}">
+    <!-- icona del sito nei preferiti -->
+    <link rel="favicon" href="{{ url_for('static', filename='img/logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+</head>
+<body>
+    <h1>Hello World!</h1>
+
+    <img src="{{ url_for('static', filename='img/test.jpg') }}" alt="Forza Napoli">
+</body>
+</html>
