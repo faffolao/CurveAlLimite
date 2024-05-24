@@ -10,20 +10,20 @@ Un'intenzione futura di questo progetto sarà quello di renderlo disponibile anc
 - Viene scelta la data e l'ora in cui si desidererebbe fare il giro;
 - Si vanno a specificare i dettagli dell'auto che il cliente metterà a disposizione al pilota per la guida (fotografia, modello vettura, targa, etc..)
 - Una volta effettuata la prenotazione, verrà generato un QR-code, il quale andrà presentato al pilota per iniziare la corsa.
-![QR code per la prenotazione](https://ibb.co/PFk81Bh)
+![QR code per la prenotazione](https://i.ibb.co/34KHStN/curve-al-limite-mockup-page-0015.jpg)
 
 ## Altri mockup
-![Home page - schermata iniziale](https://ibb.co/HYWpgK4)
+![Home page - schermata iniziale](https://i.ibb.co/BjXKsf3/curve-al-limite-mockup-page-0001.jpg)
 [Schermata iniziale del sito]
 
-![Prenotazione corsa - selezione data e ora](https://ibb.co/Z6PfDD5)
+![Prenotazione corsa - selezione data e ora](https://i.ibb.co/yn1Njjt/curve-al-limite-mockup-page-0011.jpg)
 [Prenotazione corsa - selezione data e ora]
 
-![Prenotazione corsa - inserimento dati dell'automobile](https://ibb.co/xgrXfjP)
+![Prenotazione corsa - inserimento dati dell'automobile](https://i.ibb.co/09zmFM8/curve-al-limite-mockup-page-0013.jpg)
 [Prenotazione corsa - inserimento dati dell'automobile]
 
-![Prenotazione corsa - inserimento dati personali](https://ibb.co/M1D8DL7)
+![Prenotazione corsa - inserimento dati personali](https://i.ibb.co/pKvWvpd/curve-al-limite-mockup-page-0014.jpg)
 [Prenotazione corsa - inserimento dati personali]
 
-![Gestione delle prenotazioni](https://ibb.co/GcvBXZF)
+![Gestione delle prenotazioni](https://i.ibb.co/FgbN9Qn/curve-al-limite-mockup-page-0007.jpg)
 [Gestione delle prenotazioni]
