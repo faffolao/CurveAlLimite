@@ -2,16 +2,112 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World</title>
+    <title>Curve al Limite</title>
+    <!-- tag per indicizzazione su google -->
+    <meta name="description" content="Prenota una corsa con la mia Peugeot!">
+    <meta name="robots" content="noindex,nofollow">
+
     <!-- icona del sito nella scheda -->
     <link rel="icon" href="{{ url_for('static', filename='img/logo.png') }}">
     <!-- icona del sito nei preferiti -->
     <link rel="favicon" href="{{ url_for('static', filename='img/logo.png') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+    <!-- fogli di stile -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home/skel.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home/page_carousel.css') }}">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <!-- container: contiene l'intera pagina e le sue suddivisioni -->
+    <div class="container">
+        <!-- page-carousel: contiene il carosello di pagine che compongono la home page. questo carosello lo si può scorrere -->
+        <!--                con il dito o con la rotella del mouse -->
+        <div class="page-carousel">
+            <!-- pagina 1: introduzione -->
+            <div class="page" id="intro">
+                <h1>Curve al Limite</h1>
 
-    <img src="{{ url_for('static', filename='img/test.jpg') }}" alt="Forza Napoli">
+                <button class="btn-prenota-corsa">
+                    <img src="{{ url_for('static', filename='img/sportcar.svg') }}" alt="Prenota nuova corsa">
+                    <span>Prenota una nuova corsa</span>
+                </button>
+
+                <div>
+                    <img src="{{ url_for('static', filename='img/scrolldown.svg') }}" alt="Scorri verso il basso per vedere cosa facciamo!">
+                    <span>Scorri verso il basso per vedere cosa facciamo!</span>
+                </div>
+            </div>
+
+            <!-- pagina 2: chi sono -->
+            <div class="page" id="chi-sono">
+                <div class="2-cols">
+                    <div class="col">
+                        <img src="{{ url_for('static', filename='img/federico.png') }}" alt="Federico Giumbini">
+                    </div>
+                    <div class="col">
+                        <h2>Chi sono</h2>
+                        <h4>Federico Giumbini</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Morbi mollis rutrum varius. Suspendisse elementum nisi
+                            tempus, laoreet dui et, vestibulum diam. Suspendisse
+                            volutpat leo at tortor elementum ultrices. Sed nisi orci,
+                            sagittis ut fringilla nec, viverra at dolor. Proin sit amet
+                            justo sit amet augue venenatis ornare aliquet eu odio.
+                            Vestibulum odio metus, suscipit sed erat ut, hendrerit
+                            fringilla diam. Sed enim turpis, bibendum et leo ac,
+                            iaculis gravida ante.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pagina 3: cosa faccio -->
+            <div class="page" id="cosa-faccio">
+                <div class="text-center">
+                    <h2>Cosa faccio</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, consectetur non augue at, suscipit
+                        bibendum dolor. Etiam accumsan elementum ipsum sit amet consectetur. Nulla ut eros interdum, sagittis ex a,
+                        venenatis felis. Ut mattis suscipit neque. Sed libero libero, vestibulum congue arcu nec, feugiat pretium elit. Cras dictum,
+                        felis sed blandit dignissim, quam eros porttitor nisl, in suscipit metus felis eu nisi. Vivamus tempus odio id est
+                    </p>
+                </div>
+
+                <div class="2-cols">
+                    <div class="col">
+                        <img src="{{ url_for('static', filename='img/peugeot.png') }}" alt="Peugeot 208, color bianco perlato">
+                        <p class="text-center">La mia auto: Peugeot 208, allestimento Signature</p>
+                    </div>
+
+                    <div class="col">
+                        <video src="{{ url_for('static', filename='videos/placeholder.mp4') }}" autoplay muted></video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pagina 4: sei pronto per correre? -->
+            <div class="page" id="sei-pronto">
+                <h1>Sei pronto a correre?</h1>
+
+                <button class="btn-prenota-corsa">
+                    <img src="{{ url_for('static', filename='img/sportcar.svg') }}" alt="Prenota nuova corsa">
+                    <span>Prenota una nuova corsa!</span>
+                </button>
+
+                <div>
+                    <p>Curve al Limite - realizzato da Federico Arduini (faffolao) - (P) 2024</p>
+                    <img src="{{ url_for('static', filename='img/dolphin.png') }}" alt="Grazie per tutto il pesce">
+                </div>
+            </div>
+        </div>
+
+        <!-- nav-bar: contiene gli elementi che permettono di cambiare manualmente le pagine nel page-carousel e di prenotare una nuova corsa -->
+        <div class="bottom nav-bar">
+            <a class="nav-bar-item" href="#">Home</a>
+            <a class="nav-bar-item" href="#">Chi sono</a>
+            <a class="nav-bar-item" href="#">Cosa faccio</a>
+            <a class="nav-bar-item text-bold" href="#">Prenota ora!</a>
+        </div>
+    </div>
 </body>
 </html>
